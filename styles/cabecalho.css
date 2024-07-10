@@ -24,25 +24,25 @@
     margin-right: 23.75em;
 }
 
-.cabecalho-botao {
+.cabecalho-botoes {
     display: flex;
     gap: 30px;
 }
 
 
 .cabecalho-menu__item,
-.cabecalho-botao__link {
+.cabecalho-botoes__link {
     text-decoration: none;
     color: var(--cor-fonte-texto);
     font-weight: 500;
 }
 
-.cabecalho-botao__link,
-.cabecalho-botao__cadastro {
+.cabecalho-botoes__link,
+.cabecalho-botoes__cadastro {
     padding: 0.625em  1.125em;
 }
 
-.cabecalho-botao__cadastro {
+.cabecalho-botoes__cadastro {
     background-color: var(--cor-destaque);
     color: var(--branco);
     border-radius: 8px;

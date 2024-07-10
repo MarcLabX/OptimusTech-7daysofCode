@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,31 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="shortcut icon" href="./assets/Logo.svg" type="image/x-icon">
 </head>
+
 <body>
-     <!-- Cabeçalho -->
-     <header class="cabecalho">
-        <div class="cabecalho-logo">
-          <img src="assets/Logo.svg" alt="Logo da OptimusTech" class="cabecalho-logo__imagem">
-          <h1 class="cabecalho-logo__titulo">OptimusTech</h1>
-        </div>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <figure class="cabecalho-logo">
+            <img src="assets/Logo.svg" alt="Logo da OptimusTech" class="cabecalho-logo__imagem">
+            <figcaption class="cabecalho-logo__titulo">OptimusTech</figcaption>
+        </figure>
 
         <nav class="cabecalho-menu">
-          <ul class="cabecalho-menu__lista">
-            <li><a href="#" class="cabecalho-menu__item">Home</a></li>
-            <li><a href="#" class="cabecalho-menu__item">Produtos</a></li>
-            <li><a href="#" class="cabecalho-menu__item">Recursos</a></li>
-            <li><a href="#" class="cabecalho-menu__item">Sobre Nós</a></li>
-          </ul>
+            <ul class="cabecalho-menu__lista" aria-label="Itens de navegação">
+                <li><a href="#" aria-label="Direciona para a página inicial da OptimusTech" class="cabecalho-menu__item">Home</a></li>
+                <li><a href="#" aria-label="Sessão de produtos da OptimusTech" class="cabecalho-menu__item">Produtos</a></li>
+                <li><a href="#" aria-label="Sessão de ferramentas e recursos da OptimusTech" class="cabecalho-menu__item">Recursos</a></li>
+                <li><a href="#" aria-label="Sobre nós" class="cabecalho-menu__item">Sobre Nós</a></li>
+            </ul>
         </nav>
-  
-        <div class="cabecalho-botao">
-          <a href="#" class="cabecalho-botao__link">Entrar</a>
-          <button class="cabecalho-botao__cadastro">Cadastrar</button>
+
+        <div class="cabecalho-botoes">
+            <a href="#" aria-label="Direciona para uma página ou bloco de login" class="cabecalho-botoes__link">Entrar</a>
+            <button class="cabecalho-botoes__cadastro" aria-label="Direciona para uma página ou bloco de login">Cadastrar</button>
         </div>
-      </header>
-    
+    </header>
+
 </body>
+
 </html>
