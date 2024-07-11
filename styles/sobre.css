@@ -1,0 +1,27 @@
+.container-sobrenos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 6em;
+    gap: 24px;
+}
+
+.container-sobrenos__secao {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--cor-destaque);
+}
+
+.container-sobrenos__titulo {
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--cor-fonte-heading);
+}
+
+.container-sobrenos__texto {
+    font-size: 1.25em;
+    color: var(--cor-fonte-texto);
+    padding: 0 17em;
+    line-height: 30px;
+}

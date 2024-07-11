@@ -21,7 +21,7 @@
     display: flex;
     gap: 32px;
     align-items: baseline;
-    margin-right: 23.75em;
+    padding-right: 23.75em;
 }
 
 .cabecalho-botoes {
@@ -29,15 +29,14 @@
     gap: 30px;
 }
 
-
 .cabecalho-menu__item,
-.cabecalho-botoes__link {
+.cabecalho-botoes__login {
     text-decoration: none;
     color: var(--cor-fonte-texto);
     font-weight: 500;
 }
 
-.cabecalho-botoes__link,
+.cabecalho-botoes__login,
 .cabecalho-botoes__cadastro {
     padding: 0.625em  1.125em;
 }
