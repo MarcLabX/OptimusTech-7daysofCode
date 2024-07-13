@@ -1,39 +1,39 @@
-.container-metrica {
+.metricas-container {
     display: flex;
     margin: 0 7em 0 12em;
     gap: 24px;
     justify-content: center;
 }
 
-.metricas__coluna {
+.metricas-container__coluna {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.metricas__numeros {
+.metricas-container__numeros {
     color: var(--cor-destaque);
     font-size: 3.75em;
     font-weight: 600;
 }
 
-.metricas__titulo {
+.metricas-container__titulo {
     color: var(--cor-fonte-heading);
     font-size: 1.125em;
     font-weight: 500;
 }
 
-.metricas__texto {
+.metricas-container__texto {
     color: var(--cor-fonte-texto);
     line-height: 24px;
     width: 80%;
 }
 
-.metricas__coluna:first-child p {
+.metricas-container__coluna:first-child p {
     width: 100%;
     margin-right: 3em;
 }
 
-.metricas__coluna:nth-child(2) {
+.metricas-container__coluna:nth-child(2) {
     margin-left: 3em;
 }
