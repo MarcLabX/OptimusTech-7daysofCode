@@ -1,0 +1,41 @@
+.areas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.areas-container__vaga {
+    color: var(--cor-fonte-heading);
+    font-size:  1.25em;
+    font-weight: 500;
+    margin-bottom: 2.25em;
+}
+
+.areas-container__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 1.5em 1.75em 1.5em;
+    width: 768px;
+    gap: 2.8em;
+    border: solid 1px #eaecf0;
+    border-radius: 16px;
+    margin-bottom: 1.5em;
+}
+
+.areas-container__especializacao {
+    color: var(--cor-fonte-heading);
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.areas-container__card__info {
+    display: flex;
+    gap: 24px;
+}
+
+.areas-container__info {
+    color: var(--cor-fonte-texto);
+    font-weight: 500;
+}
