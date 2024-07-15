@@ -4,6 +4,7 @@
 @import url("../styles/metricas.css");
 @import url("../styles/vagas.css");
 @import url("../styles/areas.css");
+@import url("../styles/opinioes.css");
 
 :root {
     --branco: #ffffff;
