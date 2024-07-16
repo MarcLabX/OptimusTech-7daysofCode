@@ -26,7 +26,8 @@
 
 .cabecalho-botoes {
     display: flex;
-    gap: 30px;
+    align-items: center;
+    gap: 12px;
 }
 
 .cabecalho-menu__item,
@@ -34,14 +35,12 @@
     text-decoration: none;
     color: var(--cor-fonte-texto);
     font-weight: 500;
-}
-
-.cabecalho-botoes__login,
-.cabecalho-botoes__cadastro {
     padding: 0.625em  1.125em;
 }
 
 .cabecalho-botoes__cadastro {
+    width: 112px;
+    height: 44px;
     background-color: var(--cor-destaque);
     color: var(--branco);
     border-radius: 8px;
